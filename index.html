@@ -1,0 +1,77 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Marriage invitation</title>
+
+<script src="jquery-2.1.1.min.js"></script>
+<script src="snow-plugin.js"></script>
+<!-- <script src="jquery.fireworks.js"></script> -->
+
+</head>
+<body style="margin:0px; padding:0px;">
+<style>
+body{
+	background:#3e3d3d;
+  color:#fff;
+}
+.snow-canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	pointer-events: none;
+}
+</style>
+<div style="position: absolute;top:10%;width: 100%; text-align:center;">
+<h1 style="font-size:40px;color: red;text-shadow: 2px 2px #d0bfbf;">Puspak's Wedding Invitation</h1>
+<div style="color: #64d0e2; font-weight:bold;font-size: 20px;">Kindly Join us for a 
+<div>WEDDING CELEBRATION</div>
+</div>
+
+<h1 style="font-size:35px;color: #76b776;font-style: italic;text-shadow: 2px 2px #756e6e; ">Puspak & Baby</h1>
+
+<div>
+<hr/>
+	<h3>SUNDAY, AUGUST 21, 2017 @ 5.00 PM</h3>
+	<hr/>
+</div>
+
+<div style="width: 470px; text-align:left; margin:0px auto;">
+
+<div style="width:50%; float:left;">
+<h3 style="color: #1d1dde;font-size: 25px;margin-bottom: 9px;">Venue</h3>
+<div style="color: #76b776;font-weight: bold;">
+	Area Name, <br/>
+	Near Xyz, <br/>
+	PURI, ODISHA
+</div>
+</div>
+
+<div style="width:48%; float:right;">
+<h3 style="color: #1d1dde;font-size: 25px;margin-bottom: 9px;">Dinner</h3>
+<div style="color: #76b776;font-weight: bold;">
+	21st August 8 P.M. onwards
+</div>
+</div>
+
+</div>
+</div>
+
+<canvas class="snow-canvas" speed="1" interaction="false" size="2" count="80" opacity="0.00001" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" wind-power="0" image="false" width="1366" height="303"></canvas>
+
+<canvas class="snow-canvas" speed="2" interaction="true" size="6" count="30" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" opacity="0.00001" wind-power="2" image="false" width="1366" height="303"></canvas>
+
+<canvas class="snow-canvas" speed="3" interaction="true" size="12" count="20" wind-power="-5" image="snow.png" width="1366" height="303"></canvas>
+
+
+<script>
+$(document).ready(function(){
+$(".snow-canvas").snow();
+});
+
+</script>
+
+
+
+</body></html>
